@@ -1,0 +1,39 @@
+body {
+background-color: #f2f2f2;
+}
+main{
+  margin: 50px  auto;
+  width: 1000px;
+  word-wrap: normal;
+}
+/* this are the font */
+h2 {
+font-family: 'Pacifico', cursive;
+
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  
+}
+h4,h5{
+  text-transform: uppercase;
+  color: #999999;
+}
+p{
+  font-family: 'EB Garamond', serif;
+  color: #666666;
+  text-indent: 20px;
+  
+}
+.table{
+  font-family: 'Patrick Hand', cursive;
+  color: #808080;
+
+}
+h3+p, footer>p{
+  text-indent: 0px;
+}
+h3{
+  font-family: 'Calistoga', cursive;
+  color: #4d4d4d;
+}
