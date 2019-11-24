@@ -1,14 +1,18 @@
 body {
 background-color: #f2f2f2;
+
 }
 main{
-  margin: 50px  auto;
-  width: 1000px;
+  margin: 0px  auto;
+  width: 905px;
   word-wrap: normal;
 }
 /* this are the font */
 h2 {
 font-family: 'Pacifico', cursive;
+font-size: 35px;
+padding-top: 10px;
+margin-left: 50px;
 
 }
 h1 {
@@ -35,5 +39,37 @@ h3+p, footer>p{
 }
 h3{
   font-family: 'Calistoga', cursive;
-  color: #4d4d4d;
+  color: #4d4d4d ;
+}
+/* header alignment */
+.nav{
+  display: inline;
+
+}
+.nav>li {
+  float: right;
+  margin: 1px;
+  /* padding-top: 10px; */
+ top: 50px;
+
+  
+
+} 
+#lasttwo{
+  margin-left: 10px;
+}
+header>img{
+  float: left;
+  padding-top: 10px;
+}
+header{
+  height: 100px;
+  padding-top : 20px;
+  padding-bottom: 20px;
+}
+h5{
+  font-size: 10px;
+  margin-left: 50px;
+
+ 
 }
