@@ -44,17 +44,15 @@ h3{
 /* header alignment */
 .nav{
   display: inline;
+  bottom: 50px;
 
 }
 .nav>li {
   float: right;
   margin: 1px;
   /* padding-top: 10px; */
- top: 50px;
+ } 
 
-  
-
-} 
 #lasttwo{
   margin-left: 10px;
 }
