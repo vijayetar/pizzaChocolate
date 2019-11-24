@@ -6,6 +6,13 @@ main{
   margin: 0px  auto;
   width: 905px;
   word-wrap: normal;
+  border: 1px solid black;
+}
+
+.shadedbox {
+  background-color: #4d4d4d;
+  height: 10px;
+  border: 1px solid black;
 }
 /* this are the font */
 h2 {
@@ -14,9 +21,15 @@ font-size: 35px;
 padding-top: 10px;
 margin-left: 50px;
 
+
 }
 h1 {
   font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  word-spacing: 0.3em;
+  padding-top: 30px;
+  letter-spacing: 0.1px;
+
   
 }
 h4,h5{
@@ -27,7 +40,8 @@ p{
   font-family: 'EB Garamond', serif;
   color: #666666;
   text-indent: 20px;
-  
+  padding-top: 20px;
+
 }
 .table{
   font-family: 'Patrick Hand', cursive;
@@ -44,13 +58,13 @@ h3{
 /* header alignment */
 .nav{
   display: inline;
-  bottom: 50px;
+  
 
 }
 .nav>li {
   float: right;
   margin: 1px;
-  /* padding-top: 10px; */
+
  } 
 
 #lasttwo{
@@ -59,15 +73,45 @@ h3{
 header>img{
   float: left;
   padding-top: 10px;
+
 }
 header{
   height: 100px;
   padding-top : 20px;
   padding-bottom: 20px;
+
 }
 h5{
   font-size: 10px;
   margin-left: 50px;
-
- 
 }
+h4{
+  font-size: 15px;
+  word-spacing:0.5px;
+  padding-top: 3px;
+  letter-spacing: 0.1px;
+
+}
+h4+ul>li {
+  font-size: 20px;
+  padding-bottom: 15px;
+  color: #999999;
+}
+
+/* Make the list of items */
+.checkbox {
+  background-image: url("../images/list-bg.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  border: 1px solid black;
+  padding-top: 20px;
+  margin-top: 20px;
+  height: 600px;
+}
+.column1, .column2 {
+  width: 400px;
+  padding: 5px;
+  margin: 5px;
+  float: left;
+}
+
