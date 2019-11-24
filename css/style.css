@@ -6,7 +6,6 @@ main{
   margin: 0px  auto;
   width: 905px;
   word-wrap: normal;
-  border: 1px solid black;
 }
 
 .shadedbox {
@@ -103,10 +102,9 @@ h4+ul>li {
   background-image: url("../images/list-bg.png");
   background-repeat: no-repeat;
   background-position: center top;
-  border: 1px solid black;
   padding-top: 20px;
   margin-top: 20px;
-  height: 600px;
+  height: 400px;
 }
 .column1, .column2 {
   width: 400px;
